@@ -13,7 +13,7 @@ int main() {
 #endif
 	
 	Engine engine;
-	engine.assetPath = std::string(ASSET_DIR);
+	engine.setAssetPath(std::string(ASSET_DIR));
 
 	if (!engine.initialize(1920, 1080, "Starlet Project")) 
 		return -1;
