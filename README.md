@@ -1,13 +1,13 @@
-# StarletStarter
-Template for Starlet Game Projects
+# YOUR-GAME-NAME
+YOUR-DESCRIPTION
 
 ## Building the Project
 This project uses **CMake**. Follow these steps to build:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/masonlet/starlet-starter.git
-cd starlet-starter
+git clone https://github.com/YOUR-NAME/YOUR-GAME.git
+cd YOUR-GAME
 ```
 
 ### 2. Create a Build Directory and Generate Build Files
@@ -30,3 +30,6 @@ Can be safely omitted on Windows if you're using Visual Studio
   cmake --build .
   ```
   Or open the generated `.sln` file in Visual Studio and build the solution.
+
+## License
+MIT License - see [LICENSE](./LICENSE) for details.
